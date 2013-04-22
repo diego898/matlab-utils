@@ -1,0 +1,628 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-right:0in;
+	margin-left:0in;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	color:#990000;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman","serif";
+	color:#990000;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<h2 style='margin-bottom:6.0pt'><span style='font-size:16.0pt'>Contents</span></h2>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Syntax">Syntax</a></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Description">Description</a></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Properties">Properties</a></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_PowerPoint_Features">PowerPoint Features</a></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_Grouping">Grouping</a></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><a href="#_About">About</a></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2 style='margin-bottom:6.0pt'><span style='font-size:16.0pt'>pptfigure</span></h2>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>PowerPoint Exporter</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h2><a name="_Syntax"></a>Syntax</h2>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure add</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure delete</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure all</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure on</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure off</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure(H)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure(H,'PropertyName',PropertyValue,...)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure('PropertyName',PropertyValue,...)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt;
+font-family:"Courier New"'>H = pptfigure(...)</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<h2><a name="_Description"></a>Description</h2>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+</span><span style='font-size:11.0pt'>creates a new Matlab figure with a
+PowerPoint Export button on the toolbar. Pressing the button exports the figure
+to PowerPoint with default </span><a href="#_Properties"><span
+style='font-size:11.0pt'>property</span></a><span style='font-size:11.0pt'>
+settings. After exporting, various </span><a href="#_PowerPoint_Features"><span
+style='font-size:11.0pt'>features</span></a><span style='font-size:11.0pt'> of
+the figure are automatically edited directly in PowerPoint to allow easy
+subsequent editing.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+add </span><span style='font-size:11.0pt'>places a PowerPoint Export button on
+the toolbar of the current figure.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+delete </span><span style='font-size:11.0pt'>removes any existing PowerPoint
+Export button from the toolbar of the current figure.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+all </span><span style='font-size:11.0pt'>places a PowerPoint Export button on
+the toolbar of each opened figure.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+on </span><span style='font-size:11.0pt'>turns on the option to automatically
+place a PowerPoint Export button on each newly created figure in the future.
+This will affect any Matlab process that creates a new figure.</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt'>NOTE:
+a convenient option is to create a </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>startup.m</span><span style='font-size:11.0pt'> file
+containing the line </span><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+on</span><span style='font-size:11.0pt'>. This will automatically place PowerPoint
+Export buttons on all new figures in future Matlab sessions.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure
+off </span><span style='font-size:11.0pt'>turns off the automatic button
+placement option.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure(H)
+</span><span style='font-size:11.0pt'>exports Figure H to PowerPoint.
+Equivalent to clicking the PowerPoint Export button (if available) on the
+toolbar. If Figure H does not exist, creates a new figure with handle H and a
+PowerPoint Export button on the toolbar.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure(H,'PropertyName',PropertyValue,...)
+</span><span style='font-size:11.0pt'>exports Figure H to PowerPoint with
+specified </span><a href="#_Properties"><span style='font-size:11.0pt'>property</span></a><span
+style='font-size:11.0pt'> names and values.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure('PropertyName',PropertyValue,...)
+</span><span style='font-size:11.0pt'>changes default </span><a
+href="#_Properties"><span style='font-size:11.0pt'>property</span></a><span
+style='font-size:11.0pt'> values used by </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure</span><span style='font-size:11.0pt'> (e.g.
+when the toolbar PowerPoint Export button is pressed). Defaults are stored in a
+workspace structure variable </span><span style='font-size:11.0pt;font-family:
+"Courier New"'>pptfigureDefaults</span><span style='font-size:11.0pt'>. Clear
+this variable to reset all default property values.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>H =
+pptfigure(...) </span><span style='font-size:11.0pt'>If buttons were added or
+removed, returns the handles of all affected figures. If a figure was exported,
+returns the affected slide number in PowerPoint. Otherwise returns 0.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<h2><a name="_Properties"></a>Properties</h2>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>AutoGroupMin</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>integer value (default is 5)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Smallest
+number of objects that are automatically grouped.</span></i><span
+style='font-size:11.0pt'> This property determines how many objects within
+single axes are required to trigger automatic grouping. Only objects of a
+single type, such as textboxes, are automatically grouped. Furthermore,
+automatic grouping only operates on objects that have not been manually grouped
+with the </span><span style='font-size:11.0pt;font-family:"Courier New"'>Groups</span><span
+style='font-size:11.0pt'> property. For lineseries and textbox objects,
+automatic grouping additionally requires objects to have identical formatting
+(e.g., color, alignment, line width, etc.). See </span><a href="#_Grouping"><span
+style='font-size:11.0pt'>grouping</span></a><span style='font-size:11.0pt'> for
+details.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>BackVisibility</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt;font-family:"Courier New"'>{auto}
+| on | off</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Visibility
+of figure and axes background colors</span></i><span style='font-size:11.0pt'>.
+This property determines whether background colors of the figure and axes are
+exported. If exported, background colors appear as colored PowerPoint
+rectangles behind other objects.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>auto</span><span
+style='font-size:11.0pt'> - only export those colors that are different from
+default colors.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>on</span><span
+style='font-size:11.0pt'> - export all background colors.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>off</span><span
+style='font-size:11.0pt'> - do not export any background colors.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>BitmapResolution</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>empty array (default), resolution
+in dpi (single integer value), or array of resolution values</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Exporting
+in bitmap format</span></i><span style='font-size:11.0pt'>. This options allows
+exporting some of the objects in bitmap, rather than metafile, format. Objects
+exported this way are not editable in PowerPoint. Use this for plots that have
+extremely large numbers of objects. The difference between this option and
+standard bitmap exporting is that it allows leaving some objects (e.g., axes or
+text labels) in metafile format and thus individually editable in PowerPoint.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>empty array</span></i><span
+style='font-size:11.0pt'> - do not export any objects in bitmap format.
+Everything is exported in metafile format.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>integer value</span></i><span
+style='font-size:11.0pt'> - export objects as bitmap images at the specified
+resolution.  If </span><span style='font-size:11.0pt;font-family:"Courier New"'>groups</span><span
+style='font-size:11.0pt'> are specified, each group is exported as a separate
+bitmap image. Objects not included in </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>groups</span><span style='font-size:11.0pt'> are
+exported in metafile format. If no </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>groups</span><span style='font-size:11.0pt'> are
+specified, all children of each axis are exported as a separate bitmap image.
+Axes and axes labels are not included in bitmap images and are exported in
+metafile format.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>array of values</span></i><span
+style='font-size:11.0pt'> - apply different resolution values to different </span><span
+style='font-size:11.0pt;font-family:"Courier New"'>groups</span><span
+style='font-size:11.0pt'> (if </span><span style='font-size:11.0pt;font-family:
+"Courier New"'>groups</span><span style='font-size:11.0pt'> are specified) or to
+different axes (if no </span><span style='font-size:11.0pt;font-family:"Courier New"'>groups</span><span
+style='font-size:11.0pt'> specified). The length of the array must match the
+number of groups in the former case or the number of axes (excluding legends)
+in the latter case. NaN value in the array excludes the corresponding axis or
+group from bitmap exporting and exports it in metafile format instead.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>MetaResolution</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>resolution of metafile images
+in dpi (default is 0).</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Image
+resolution</span></i><span style='font-size:11.0pt'>. Specifies resolution at
+which objects are exported to PowerPoint. A value of 0 (default) exports
+objects at the screen resolution. This property does not apply to any objects
+that are exported as bitmap images; use </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>BitmapResolution</span><span style='font-size:11.0pt'>
+for those instead.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>Groups</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>array of handles or cell array
+containing arrays of handles (empty by default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Manual
+grouping of objects</span></i><span style='font-size:11.0pt'>. This property
+determines which objects are manually grouped for exporting as a single object
+into PowerPoint. Use an array of object handles to specify a single group or a
+cell array to specify single/multiple groups. </span><span style='font-size:
+11.0pt;font-family:"Courier New"'>Groups</span><span style='font-size:11.0pt'>
+take precedence over </span><span style='font-size:11.0pt;font-family:"Courier New"'>AutoGroupMin</span><span
+style='font-size:11.0pt'>; only objects that have not been manually grouped are
+considered for automatic grouping. Manual grouping can operate on objects of
+different formats or types, and even on objects from different axes. See </span><a
+href="#_Grouping"><span style='font-size:11.0pt'>grouping</span></a><span
+style='font-size:11.0pt'> for details.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>Height</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>height in inches (empty by
+default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Height
+of the figure in PowerPoint</span></i><span style='font-size:11.0pt'>. If
+empty, the height is determined automatically.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>Left</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>horizontal position in inches
+(empty by default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Position
+of the left edge of the figure in PowerPoint</span></i><span style='font-size:
+11.0pt'>. If empty, the figure is automatically centered in the PowerPoint
+slide.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>SlideNumber</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:11.0pt'>integer
+value or one of the following strings:</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt;font-family:"Courier New"'>{append}
+| last | current</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>PowerPoint
+slide to which the figure is exported</span></i><span style='font-size:11.0pt'>.</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt'>integer value - slide number in
+the current presentation.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>append</span><span
+style='font-size:11.0pt'> - add a new slide to the presentation.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>last</span><span
+style='font-size:11.0pt'> - last slide of the presentation.</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-left:.75in;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:11.0pt;font-family:"Courier New"'>current</span><span
+style='font-size:11.0pt'> - currently selected slide.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>SwitchSlide</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>Boolean value (true by
+default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Slide
+switching after exporting</span></i><span style='font-size:11.0pt'>. Determines
+whether PowerPoint selects the affected slide after exporting. In some cases,
+it may be convenient to set this property to </span><span style='font-size:
+11.0pt;font-family:"Courier New"'>false</span><span style='font-size:11.0pt'>
+in order to export multiple figures to the same slide.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>Top</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>vertical position in inches
+(empty by default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Position
+of the top edge of the figure in PowerPoint</span></i><span style='font-size:
+11.0pt'>. If empty, the figure is automatically centered in the PowerPoint
+slide.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Courier New"'>Width</span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.5in'><span style='font-size:11.0pt'>width in inches (empty by
+default)</span></p>
+
+<p class=MsoNormal style='margin-left:.5in'><i><span style='font-size:11.0pt'>Width
+of the figure in PowerPoint</span></i><span style='font-size:11.0pt'>. If
+empty, the width is determined automatically.</span></p>
+
+<p class=MsoNormal><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<h2><a name="_PowerPoint_Features"></a>PowerPoint Features</h2>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure</span><span style='font-size:11.0pt'>
+edits various features of figures directly in PowerPoint after exporting in
+order to make them easily editable and presentable. In doing so, it solves
+several problems that arise from standard exporting methods, such as
+copy-pasting.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Format conversion.</span></i><span
+style='font-size:11.0pt'> </span><span style='font-size:11.0pt;font-family:
+"Courier New"'>pptfigure</span><span style='font-size:11.0pt'> pastes Matlab
+figures directly into PowerPoint in metafile format and converts them to
+PowerPoint objects. This way, all exported objects within the figures are
+individually editable in PowerPoint without the need for any additional
+conversion or importing.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Textbox alignment</span></i><span
+style='font-size:11.0pt'>. Standard exporting methods cause textboxes to become
+misaligned when figures are resized or fonts are changed in PowerPoint. (A very
+common problem is the misalignment of tick marks with tick labels). </span><span
+style='font-size:11.0pt;font-family:"Courier New"'>pptfigure</span><span
+style='font-size:11.0pt'> solves this problem by modifying horizontal alignment
+and vertical anchoring properties of all textboxes directly in PowerPoint.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Exponential labels</span></i><span
+style='font-size:11.0pt'>. When exporting logarithmic axes or axes that use
+scientific notation (e.g. x10<sup>6</sup>), standard methods create a separate
+PowerPoint textbox for each exponent. Thus, two slightly offset textboxes are
+created for each tick label, making subsequent editing and alignment extremely
+difficult in PowerPoint. </span><span style='font-size:11.0pt;font-family:"Courier New"'>pptfigure</span><span
+style='font-size:11.0pt'> solves this problem by removing extraneous textboxes
+and instead applying superscript formatting to each appropriate label directly
+in PowerPoint.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>TEX formatting.</span></i><span
+style='font-size:11.0pt'> When exporting TEX-formatted textboxes, standard
+methods create a separate PowerPoint textbox for each special character (e.g.
+Greek letter or mathematical symbol) and each group of differently formatted
+characters (e.g., color, subscripts, etc.). This makes subsequent editing
+extremely difficult in PowerPoint. </span><span style='font-size:11.0pt;
+font-family:"Courier New"'>pptfigure</span><span style='font-size:11.0pt'>
+solves this problem by placing all text into a single PowerPoint textbox and
+directly modifying the format of individual characters. It also converts all
+special characters to Unicode and inserts the corresponding symbols into the
+textbox.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Textbox colors</span></i><span
+style='font-size:11.0pt'>. When exporting a textbox that has background or edge
+color, standard methods create separate colored rectangle objects in PowerPoint
+in addition to the actual textbox. This makes subsequent size/font changes
+difficult because rectangles and the textbox become easily misaligned. </span><span
+style='font-size:11.0pt;font-family:"Courier New"'>pptfigure</span><span
+style='font-size:11.0pt'> eliminates extraneous rectangles and instead applies
+appropriate fill color and outline settings directly to the PowerPoint textbox.
+It also directly modifies textbox margins in PowerPoint to match their
+appearance in Matlab.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Trace grouping</span></i><span
+style='font-size:11.0pt'>. Standard exporting methods often split individual line
+traces into multiple PowerPoint objects. In order to modify these traces in
+PowerPoint, one must manually select each of these pieces. </span><span
+style='font-size:11.0pt;font-family:"Courier New"'>pptfigure</span><span
+style='font-size:11.0pt'> solves this problem by combining pieces from a single
+trace into one PowerPoint group object, allowing one to change their format
+simultaneously.</span></p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'><span
+style='font-size:11.0pt'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i><span style='font-size:11.0pt'>Line style</span></i><span
+style='font-size:11.0pt'>. Standard exporting methods often change the
+appearance of dashed, dotted, and dash-dotted lines. </span><span
+style='font-size:11.0pt;font-family:"Courier New"'>pptfigure</span><span
+style='font-size:11.0pt'> solves this problem by directly modifying outline
+style settings of all line objects, converting them to standard PowerPoint
+style formats.</span></p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-size:11.0pt'>&nbsp;</span></p>
+
+<h2><a name="_Grouping"></a>Grouping</h2>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'><span style='font-family:"Courier New"'>Groups</span>
+and <span style='font-family:"Courier New"'>AutoGroupMin</span> <a
+href="#_Properties">properties</a> provide the option of <i>grouping</i>
+multiple Matlab objects during exporting. Grouping exports these objects as a
+single PowerPoint group. The following points should be considered when using
+this option</p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Grouping dramatically speeds up exporting (roughly proportionally to the
+number of objects) and is recommended when more than a few similar objects are
+present in a plot.</p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Objects exported as a group can be bulk-modified in PowerPoint. They can
+also be ungrouped and modified individually, but selecting individual objects
+after ungrouping can be very inconvenient. In general, avoid including in any
+groups those objects that may need individual formatting. To prevent an object
+from being grouped automatically, use the <span style='font-family:"Courier New"'>Groups</span>
+property to specify a group containing that one object.</p>
+
+<p class=MsoListParagraph style='margin-bottom:6.0pt;text-indent:-.25in'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Grouping objects of different types (such as lines with textboxes) or
+objects that have different formatting (such as textboxes with different
+background colors) is generally not recommended. This may prevent <span
+style='font-family:"Courier New"'>pptfigure</span> from properly editing some <a
+href="#_PowerPoint_Features">PowerPoint Features</a> on these objects. Only
+group diverse objects in extremely large figures, when speed is a priority.</p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:6.0pt;
+margin-left:.25in'>&nbsp;</p>
+
+<h2><a name="_About"></a>About</h2>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'>(c) 2011, by Dmitriy Aronov</p>
+
+<p class=MsoNormal style='margin-bottom:6.0pt'>Code tested in Microsoft Windows
+7, Microsoft PowerPoint 2010, Matlab 7.10.0</p>
+
+</div>
+
+</body>
+
+</html>
