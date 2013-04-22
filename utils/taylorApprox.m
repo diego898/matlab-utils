@@ -1,7 +1,7 @@
-function [approx, error] = taylor_approx(func, point, order, range_offset)
-%taylor_approx   Construct, return and plot the taylor series approx.
+function [approx, error] = taylorApprox(func, point, order, range_offset)
+%taylorApprox   Construct, return and plot the taylor series approx.
 %
-%   taylor_approx(func, point, order, range_offset) will construct the
+%   taylorApprox(func, point, order, range_offset) will construct the
 %   taylor series approx of the string in func to the specified order
 %   evaluated at some range offset centered around point.
 %
