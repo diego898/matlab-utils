@@ -18,7 +18,8 @@ the URL to the relevant post.
     * reads EEG files generated my MJs machine
 * `taylorApprox`
     * carries out a taylor approx to some function
-* `arrow3`-draws arrow heads on lines
+* `arrow3`
+    * draws arrow heads on lines
 * `boundedline`
     * allows you to plot lines with shaded bounds, that can represent error or confidence bounds.
 * `createColorHistograms`
