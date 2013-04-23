@@ -15,36 +15,36 @@ file-exchange's Pick Of The Week (potw) have an included `potw.txt` file with
 the URL to the relevant post.
 
 * `parseEEGFile`
-    reads EEG files generated my MJs machine
+    * reads EEG files generated my MJs machine
 * `taylorApprox`
-    carries out a taylor approx to some function
+    * carries out a taylor approx to some function
 * `arrow3`-draws arrow heads on lines
 * `boundedline`
-    allows you to plot lines with shaded bounds, that can represent error or confidence bounds.
+    * allows you to plot lines with shaded bounds, that can represent error or confidence bounds.
 * `createColorHistograms`
-    creates color histograms
+    * creates color histograms
 * `exportFig`
-    set of functions to export matlab figures to different types
+    * set of functions to export matlab figures to different types
 * `grep`
-    find anything!!
+    * find anything!!
 * `legendflex`
-    create a much more flexible legend!
+    * create a much more flexible legend!
 * `mtit`
-    easily adds a title to a group of subplots
+    * easily adds a title to a group of subplots
 * `notifier`
-    emails you when your script/program finishes running
+    * emails you when your script/program finishes running
 * `panel`
-    allows for easier paneling of figures
+    * allows for easier paneling of figures
 * `pptfigure`
-    creates a group of objects in powerpoint for a figure in matlab! Awesome but cant get it to work in Powerpoint 2013 yet.
+    * creates a group of objects in powerpoint for a figure in matlab! Awesome but cant get it to work in Powerpoint 2013 yet.
 * `cprintf`
-    Displays sprintf-formatted strings in the Command Window using the specified color/underline style
+    * displays sprintf-formatted strings in the Command Window using the specified color/underline style
 * `mcode`
-    Easily include nicely syntax highlighted m-code in your LaTeX documents.
+    * easily include nicely syntax highlighted m-code in your LaTeX documents.
 * `opt_tips`
-    A series of examples/tips of optimization in matlab
+    * a series of examples/tips of optimization in matlab
 * `peakfinder`
-    Finds the peaks in a noisy wave form
+    * finds the peaks in a noisy wave form
 
 
 Projects
@@ -53,4 +53,4 @@ Projects
 Larger groups of files
 
  * `EVM-Matlab`
-    Eulerian video magnification
+    * scripts accompanying the Eulerian video magnification paper from MIT
