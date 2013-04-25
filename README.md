@@ -48,10 +48,12 @@ the URL to the relevant post.
     * finds the peaks in a noisy wave form
 
 
-Projects
+Toolboxes
 --------------
 
-Larger groups of files
+Larger groups of related files
 
  * `EVM-Matlab`
     * scripts accompanying the Eulerian video magnification paper from MIT
+ * `drtoolbox`
+    * a dimensionality reduction toolbox implementing several methods
