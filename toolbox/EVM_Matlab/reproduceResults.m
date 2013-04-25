@@ -11,8 +11,8 @@
 
 clear;
 
-dataDir = './data';
-resultsDir = 'ResultsSIGGRAPH2012';
+dataDir = 'C:/Users/diego/Desktop/data';
+resultsDir = 'C:/Users/diego/Desktop/results';
 
 mkdir(resultsDir);
 
