@@ -46,6 +46,8 @@ the URL to the relevant post.
     * a series of examples/tips of optimization in matlab
 * `peakfinder`
     * finds the peaks in a noisy wave form
+* `readNexFile`
+    * function written by TBSI to import their data into MATLAB
 
 
 Toolboxes
