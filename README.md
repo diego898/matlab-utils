@@ -48,6 +48,8 @@ the URL to the relevant post.
     * finds the peaks in a noisy wave form
 * `readNexFile`
     * function written by TBSI to import their data into MATLAB
+* `extrema`
+    * finds the local/global max/min, returning their location and value
 
 
 Toolboxes
