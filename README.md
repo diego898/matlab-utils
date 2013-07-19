@@ -14,6 +14,8 @@ file-exchange (may or may not be modified). Files that were selected as the
 file-exchange's Pick Of The Week (potw) have an included `potw.txt` file with
 the URL to the relevant post.
 
+* `textprogressbar`
+    * creates a text progress bar
 * `parseEEGFile`
     * reads EEG files generated my MJs machine
 * `taylorApprox`
