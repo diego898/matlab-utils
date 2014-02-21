@@ -52,6 +52,12 @@ the URL to the relevant post.
     * function written by TBSI to import their data into MATLAB
 * `extrema`
     * finds the local/global max/min, returning their location and value
+* `logsumexp`
+    * high accuracy version of log sum exp that avoids numerican underflow
+* `tprod`
+    * Multi-dimensional generalization of matrix multiplication
+* `linspecer`
+    * Better colors for matlab
 
 
 Toolboxes
